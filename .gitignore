@@ -1,0 +1,33 @@
+# Node
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+npm-debug.log*
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Prisma
+.prisma/
+**/.prisma/
+
+# Env/secrets
+.env
+*.env
+**/.env*
+Employee-Backend/.env*
+employee-frontend/.env*
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Build/deploy artifacts
+deploy.zip
+*.zip
+
+# Logs
+logs/
+**/*.log
